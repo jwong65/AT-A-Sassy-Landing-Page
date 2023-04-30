@@ -32,8 +32,14 @@ a {
   // 1. $variables
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
-  @include set-bg($primary-color)
-  
+  @include set-bg($primary-color);
+
+  ul{
+    // To get rid of the bullepoints.
+    list-style-type: none;
+  }
+
+
 
 
 
