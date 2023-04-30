@@ -56,6 +56,10 @@ a {
   background-color: #000814;
   color: white;
 }
+.hero ul {
+  list-style-type: none;
+  display: flex;
+}
 
 .m-1 {
   margin: 1rem;
