@@ -38,6 +38,8 @@ a {
     // To get rid of the bullepoints.
     list-style-type: none;
     display: flex;
+    justify-content: space-evenly;
+    color:$secondary-color
   }
 
 

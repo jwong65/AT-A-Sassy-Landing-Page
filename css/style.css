@@ -59,6 +59,8 @@ a {
 .hero ul {
   list-style-type: none;
   display: flex;
+  justify-content: space-evenly;
+  color: #a2d0fc;
 }
 
 .m-1 {
