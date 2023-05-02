@@ -56,6 +56,12 @@ a {
   background-color: #000814;
   color: white;
 }
+.hero box a {
+  color: white;
+}
+.hero box a:hover {
+  color: #a2d0fc;
+}
 .hero ul {
   list-style-type: none;
   display: flex;

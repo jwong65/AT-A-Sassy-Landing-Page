@@ -34,6 +34,19 @@ a {
   // 3. At-Rules
   @include set-bg($primary-color);
 
+  box{
+    li{
+      // color: $primary-color;
+    }
+    // Text color picker utility in utilities.scss
+    a{
+      color: text-color-picker($primary-color)
+    }
+    a:hover{
+      color: $secondary-color
+    }
+  }
+
   ul{
     // To get rid of the bullepoints.
     list-style-type: none;
