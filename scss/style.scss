@@ -34,6 +34,8 @@ a {
   // 3. At-Rules
   @include set-bg($primary-color);
 
+  height: 80vh;
+
   nav{
     li{
       // color: $primary-color;
@@ -53,10 +55,6 @@ a {
     display: flex;
     justify-content: space-evenly;
     // color:$secondary-color
-  }
-
-  box{
-    height: 80%;
   }
 
   a{

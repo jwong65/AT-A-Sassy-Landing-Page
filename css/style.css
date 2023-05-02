@@ -55,6 +55,7 @@ a {
 .hero {
   background-color: #000814;
   color: white;
+  height: 80vh;
 }
 .hero nav a {
   color: white;
@@ -66,9 +67,6 @@ a {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-}
-.hero box {
-  height: 80%;
 }
 .hero h1 {
   font-size: 40px;
