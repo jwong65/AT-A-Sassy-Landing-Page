@@ -60,7 +60,9 @@ a {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  color: #a2d0fc;
+}
+.hero h1 {
+  font-size: 40px;
 }
 
 .m-1 {

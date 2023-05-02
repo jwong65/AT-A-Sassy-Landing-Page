@@ -39,9 +39,15 @@ a {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    color:$secondary-color
+    // color:$secondary-color
   }
 
+  a{
+    // color:$secondary-color
+  }
+  h1{
+    font-size: 40px;
+  }
 
 
 
