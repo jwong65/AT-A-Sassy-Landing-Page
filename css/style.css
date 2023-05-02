@@ -70,15 +70,17 @@ a {
 .hero h1 {
   font-size: 40px;
 }
-.hero img {
-  width: 50%;
-}
 .hero-content {
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
 }
-.hero-content p {
+.hero-content img {
   width: 50%;
+  height: 100%;
+}
+.hero-content p {
+  height: 100%;
 }
 
 .m-1 {

@@ -61,20 +61,20 @@ a {
   h1{
     font-size: 40px;
   }
-  img{
-    width: 50%
-  }
   &-content{
+    height:100%;
     display: flex;
     justify-content: space-evenly;
+    
+    img{
+      width: 50%;
+      height: 100%;
+    }
 
     p{
-      width: 50%;
+      height: 100%;
     }
   }
-
-
-
 
 }
 
