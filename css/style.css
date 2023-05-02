@@ -56,16 +56,19 @@ a {
   background-color: #000814;
   color: white;
 }
-.hero box a {
+.hero nav a {
   color: white;
 }
-.hero box a:hover {
+.hero nav a:hover {
   color: #a2d0fc;
 }
 .hero ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+}
+.hero box {
+  height: 80%;
 }
 .hero h1 {
   font-size: 40px;
@@ -74,6 +77,7 @@ a {
   height: 100%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .hero-content img {
   width: 50%;
