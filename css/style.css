@@ -73,6 +73,13 @@ a {
 .hero img {
   width: 50%;
 }
+.hero-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hero-content p {
+  width: 50%;
+}
 
 .m-1 {
   margin: 1rem;
